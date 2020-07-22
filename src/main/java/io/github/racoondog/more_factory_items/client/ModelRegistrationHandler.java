@@ -1,9 +1,6 @@
 package io.github.racoondog.more_factory_items.client;
 
 import io.github.racoondog.more_factory_items.MoreFactoryItems;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import io.github.racoondog.more_factory_items.init.ModItems;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -16,15 +13,13 @@ import net.minecraftforge.fml.relauncher.Side;
 @EventBusSubscriber(value = Side.CLIENT, modid = MoreFactoryItems.MODID)
 public class ModelRegistrationHandler {
 	
-	public static final Logger LOGGER = LogManager.getLogger(MoreFactoryItems.MODID);
-
 	@SubscribeEvent
 	public static void registerModels(ModelRegistryEvent event) {
+		//Rods/Gearboxes
 		registerModel(ModItems.aluminum_gearbox, 0);
 		registerModel(ModItems.aluminum_rod, 0);
 		registerModel(ModItems.bronze_gearbox, 0);
 		registerModel(ModItems.bronze_rod, 0);
-		registerModel(ModItems.complicated_factory_blend, 0);
 		registerModel(ModItems.constantan_gearbox, 0);
 		registerModel(ModItems.constantan_rod, 0);
 		registerModel(ModItems.copper_gearbox, 0);
@@ -47,20 +42,23 @@ public class ModelRegistrationHandler {
 		registerModel(ModItems.nickel_rod, 0);
 		registerModel(ModItems.platinum_gearbox, 0);
 		registerModel(ModItems.platinum_rod, 0);
-		registerModel(ModItems.rare_factory_blend, 0);
-		registerModel(ModItems.resonant_factory_blend, 0);
 		registerModel(ModItems.signalum_gearbox, 0);
 		registerModel(ModItems.signalum_rod, 0);
 		registerModel(ModItems.silver_gearbox, 0);
 		registerModel(ModItems.silver_rod, 0);
-		registerModel(ModItems.simple_factory_blend, 0);
 		registerModel(ModItems.steel_gearbox, 0);
 		registerModel(ModItems.steel_rod, 0);
 		registerModel(ModItems.tin_gearbox, 0);
 		registerModel(ModItems.tin_rod, 0);
+		
+		//Vanilla Rods/Gearboxes
 		registerModel(ModItems.wooden_gearbox, 0);
 		
-		LOGGER.info("ModelRegistrationHandler");
+		//Factory Blends
+		registerModel(ModItems.simple_factory_blend, 0);
+		registerModel(ModItems.complicated_factory_blend, 0);
+		registerModel(ModItems.rare_factory_blend, 0);
+		registerModel(ModItems.resonant_factory_blend, 0);
 	}
 
 	private static void registerModel(Item item, int meta) {
