@@ -6,12 +6,11 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 
 @ObjectHolder(MoreFactoryItems.MODID)
 public class ModItems {
-	
+	//Rods/Gearboxes
 	public static final Item aluminum_gearbox = null;
 	public static final Item aluminum_rod = null;
 	public static final Item bronze_gearbox = null;
 	public static final Item bronze_rod = null;
-	public static final Item complicated_factory_blend = null;
 	public static final Item constantan_gearbox = null;
 	public static final Item constantan_rod = null;
 	public static final Item copper_gearbox = null;
@@ -34,17 +33,21 @@ public class ModItems {
 	public static final Item nickel_rod = null;
 	public static final Item platinum_gearbox = null;
 	public static final Item platinum_rod = null;
-	public static final Item rare_factory_blend = null;
-	public static final Item resonant_factory_blend = null;
 	public static final Item signalum_gearbox = null;
 	public static final Item signalum_rod = null;
 	public static final Item silver_gearbox = null;
 	public static final Item silver_rod = null;
-	public static final Item simple_factory_blend = null;
 	public static final Item steel_gearbox = null;
 	public static final Item steel_rod = null;
 	public static final Item tin_gearbox = null;
 	public static final Item tin_rod = null;
+	
+	//Vanilla Rods/Gearboxes
 	public static final Item wooden_gearbox = null;
 	
+	//Factory Blends
+	public static final Item simple_factory_blend = null;
+	public static final Item complicated_factory_blend = null;
+	public static final Item rare_factory_blend = null;
+	public static final Item resonant_factory_blend = null;
 }
