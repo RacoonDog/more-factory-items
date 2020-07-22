@@ -1,0 +1,22 @@
+{
+  "group": "morefactoryitems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "121",
+    " 1 "
+  ],
+  "key": {
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "gearEnderium"
+    },
+    "2": {
+      "item": "morefactoryitems:enderium_rod"
+    }
+  },
+  "result": {
+    "item": "morefactoryitems:enderium_gearbox",
+    "count": 1
+  }
+}

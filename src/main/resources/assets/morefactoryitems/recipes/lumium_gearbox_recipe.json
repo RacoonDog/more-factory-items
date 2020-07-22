@@ -1,0 +1,22 @@
+{
+  "group": "morefactoryitems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "121",
+    " 1 "
+  ],
+  "key": {
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "gearLumium"
+    },
+    "2": {
+      "item": "morefactoryitems:lumium_rod"
+    }
+  },
+  "result": {
+    "item": "morefactoryitems:lumium_gearbox",
+    "count": 1
+  }
+}

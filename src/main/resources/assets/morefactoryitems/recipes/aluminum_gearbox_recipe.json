@@ -1,0 +1,22 @@
+{
+  "group": "morefactoryitems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "121",
+    " 1 "
+  ],
+  "key": {
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "gearAluminum"
+    },
+    "2": {
+      "item": "morefactoryitems:aluminum_rod"
+    }
+  },
+  "result": {
+    "item": "morefactoryitems:aluminum_gearbox",
+    "count": 1
+  }
+}

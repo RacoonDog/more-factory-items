@@ -1,0 +1,30 @@
+{
+  "group": "morefactoryitems",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "dustSteel"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dustInvar"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dustConstantan"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dustElectrum"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dustBronze"
+    }
+  ],
+  "result": {
+    "item": "morefactoryitems:complicated_factory_blend",
+    "count": 1
+  }
+}

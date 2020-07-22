@@ -1,0 +1,22 @@
+{
+  "group": "morefactoryitems",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "dustSignalum"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dustLumium"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dustEnderium"
+    }
+  ],
+  "result": {
+    "item": "morefactoryitems:resonant_factory_blend",
+    "count": 1
+  }
+}
