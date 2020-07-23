@@ -6,7 +6,8 @@
   "mcversion": "1.12.2",
   "url": "https://www.curseforge.com/minecraft/mc-mods/more-factory-items",
   "authorList": ["GGCrosby"],
-  "credits": "Thanks to cubicoder for his great tutorial."
+  "credits": "Thanks to cubicoder for his great tutorial.",
+  "logoFile": "logo.png",
   "dependencies": [
      "mod_MinecraftForge"
   ]
