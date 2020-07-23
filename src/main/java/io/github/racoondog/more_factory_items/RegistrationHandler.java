@@ -50,6 +50,16 @@ public class RegistrationHandler {
 				
 				//Vanilla Rods/Gearboxes
 				RegistryUtil.setItemName(new Item(), "wooden_gearbox", "gearboxWood").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "stone_rod", "rodStone").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "stone_gearbox", "gearboxStone").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "iron_rod", "rodIron").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "iron_gearbox", "gearboxIron").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "gold_rod", "rodGold").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "gold_gearbox", "gearboxGold").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "emerald_rod", "rodEmerald").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "emerald_gearbox", "gearboxEmerald").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "diamond_rod", "rodDiamond").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "diamond_gearbox", "gearboxDiamond").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
 				
 				//Factory Blends
 				RegistryUtil.setItemName(new Item(), "simple_factory_blend", "factoryblendSimple").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),

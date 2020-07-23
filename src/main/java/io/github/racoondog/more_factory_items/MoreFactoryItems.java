@@ -19,7 +19,7 @@ public class MoreFactoryItems {
 
 	public static final String MODID = "morefactoryitems";
 	public static final String NAME = "More Factory Items";
-	public static final String VERSION = "2.2.0";
+	public static final String VERSION = "2.3.0";
 	public static final String MC_VERSION = "[1.12.2]";
 
 	public static final Logger LOGGER = LogManager.getLogger(MoreFactoryItems.MODID);
@@ -71,6 +71,16 @@ public class MoreFactoryItems {
 		
 		//Vanilla Rods/Gearboxes
 		RegistryUtil.OreDict(ModItems.wooden_gearbox, "gearboxWood");
+		RegistryUtil.OreDict(ModItems.stone_rod, "rodStone");
+		RegistryUtil.OreDict(ModItems.stone_gearbox, "gearboxStone");
+		RegistryUtil.OreDict(ModItems.iron_rod, "rodIron");
+		RegistryUtil.OreDict(ModItems.iron_gearbox, "gearboxIron");
+		RegistryUtil.OreDict(ModItems.gold_rod, "rodGold");
+		RegistryUtil.OreDict(ModItems.gold_gearbox, "gearboxGold");
+		RegistryUtil.OreDict(ModItems.emerald_rod, "rodEmerald");
+		RegistryUtil.OreDict(ModItems.emerald_gearbox, "gearboxEmerald");
+		RegistryUtil.OreDict(ModItems.diamond_rod, "rodDiamond");
+		RegistryUtil.OreDict(ModItems.diamond_gearbox, "gearboxDiamond");
 		
 		//Factory Blends
 		RegistryUtil.OreDict(ModItems.simple_factory_blend, "factoryblendSimple");
@@ -97,6 +107,8 @@ public class MoreFactoryItems {
 		RegistryUtil.OreDict(ModItems.silver_rod, "rodMetalAny");
 		RegistryUtil.OreDict(ModItems.steel_rod, "rodMetalAny");
 		RegistryUtil.OreDict(ModItems.tin_rod, "rodMetalAny");
+		RegistryUtil.OreDict(ModItems.iron_rod, "rodMetalAny");
+		RegistryUtil.OreDict(ModItems.gold_rod, "rodMetalAny");
 		
 		//Metal Gearboxes
 		RegistryUtil.OreDict(ModItems.aluminum_gearbox, "gearboxMetalAny");
@@ -116,12 +128,33 @@ public class MoreFactoryItems {
 		RegistryUtil.OreDict(ModItems.silver_gearbox, "gearboxMetalAny");
 		RegistryUtil.OreDict(ModItems.steel_gearbox, "gearboxMetalAny");
 		RegistryUtil.OreDict(ModItems.tin_gearbox, "gearboxMetalAny");
+		RegistryUtil.OreDict(ModItems.iron_gearbox, "gearboxMetalAny");
+		RegistryUtil.OreDict(ModItems.gold_gearbox, "gearboxMetalAny");
 		
 		//Factory Blends
 		RegistryUtil.OreDict(ModItems.simple_factory_blend, "factoryblendAny");
 		RegistryUtil.OreDict(ModItems.complicated_factory_blend, "factoryblendAny");
 		RegistryUtil.OreDict(ModItems.rare_factory_blend, "factoryblendAny");
 		RegistryUtil.OreDict(ModItems.resonant_factory_blend, "factoryblendAny");
+		
+		//Primitive Items
+		RegistryUtil.OreDict(ModItems.wooden_gearbox, "gearboxPrimitiveAny");
+		RegistryUtil.OreDict(ModItems.stone_gearbox, "gearboxPrimitiveAny");
+		RegistryUtil.OreDict(ModItems.stone_rod, "rodPrimitiveAny");
+		
+		//Vanilla Items
+		RegistryUtil.OreDict(ModItems.wooden_gearbox, "gearboxVanillaAny");
+		RegistryUtil.OreDict(ModItems.stone_gearbox, "gearboxVanillaAny");
+		RegistryUtil.OreDict(ModItems.iron_gearbox, "gearboxVanillaAny");
+		RegistryUtil.OreDict(ModItems.gold_gearbox, "gearboxVanillaAny");
+		RegistryUtil.OreDict(ModItems.emerald_gearbox, "gearboxVanillaAny");
+		RegistryUtil.OreDict(ModItems.diamond_gearbox, "gearboxVanillaAny");
+		
+		RegistryUtil.OreDict(ModItems.stone_rod, "rodVanillaAny");
+		RegistryUtil.OreDict(ModItems.iron_rod, "rodVanillaAny");
+		RegistryUtil.OreDict(ModItems.gold_rod, "rodVanillaAny");
+		RegistryUtil.OreDict(ModItems.emerald_rod, "rodVanillaAny");
+		RegistryUtil.OreDict(ModItems.diamond_rod, "rodVanillaAny");
 	}
 
 	@EventHandler

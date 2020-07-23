@@ -44,6 +44,16 @@ public class ModItems {
 	
 	//Vanilla Rods/Gearboxes
 	public static final Item wooden_gearbox = null;
+	public static final Item stone_rod = null;
+	public static final Item stone_gearbox = null;
+	public static final Item iron_rod = null;
+	public static final Item iron_gearbox = null;
+	public static final Item gold_rod = null;
+	public static final Item gold_gearbox = null;
+	public static final Item emerald_rod = null;
+	public static final Item emerald_gearbox = null;
+	public static final Item diamond_rod = null;
+	public static final Item diamond_gearbox = null;
 	
 	//Factory Blends
 	public static final Item simple_factory_blend = null;

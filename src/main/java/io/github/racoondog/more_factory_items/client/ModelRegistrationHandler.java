@@ -53,6 +53,16 @@ public class ModelRegistrationHandler {
 		
 		//Vanilla Rods/Gearboxes
 		registerModel(ModItems.wooden_gearbox, 0);
+		registerModel(ModItems.stone_rod, 0);
+		registerModel(ModItems.stone_gearbox, 0);
+		registerModel(ModItems.iron_rod, 0);
+		registerModel(ModItems.iron_gearbox, 0);
+		registerModel(ModItems.gold_rod, 0);
+		registerModel(ModItems.gold_gearbox, 0);
+		registerModel(ModItems.emerald_rod, 0);
+		registerModel(ModItems.emerald_gearbox, 0);
+		registerModel(ModItems.diamond_rod, 0);
+		registerModel(ModItems.diamond_gearbox, 0);
 		
 		//Factory Blends
 		registerModel(ModItems.simple_factory_blend, 0);
