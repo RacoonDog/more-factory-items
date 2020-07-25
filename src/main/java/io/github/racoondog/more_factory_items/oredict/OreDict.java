@@ -1,4 +1,4 @@
-package io.github.racoondog.more_factory_items;
+package io.github.racoondog.more_factory_items.oredict;
 
 import io.github.racoondog.more_factory_items.init.ModItems;
 import io.github.racoondog.more_factory_items.util.RegistryUtil;
