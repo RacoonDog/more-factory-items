@@ -17,7 +17,7 @@ public class MoreFactoryItems {
 
 	public static final String MODID = "morefactoryitems";
 	public static final String NAME = "More Factory Items";
-	public static final String VERSION = "2.3.0";
+	public static final String VERSION = "2.4.0";
 	public static final String MC_VERSION = "[1.12.2]";
 
 	public static final Logger LOGGER = LogManager.getLogger(MoreFactoryItems.MODID);
