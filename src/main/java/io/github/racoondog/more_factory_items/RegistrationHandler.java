@@ -12,7 +12,7 @@ public class RegistrationHandler {
 	@SubscribeEvent
 	public static void registerItems(Register<Item> event) {
 		final Item[] items = {
-				//Rods/Gearboxes
+				//Modded Items
 				RegistryUtil.setItemName(new Item(), "aluminum_gearbox", "gearboxAluminum").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
 				RegistryUtil.setItemName(new Item(), "aluminum_rod", "rodAluminum").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
 				RegistryUtil.setItemName(new Item(), "bronze_gearbox", "gearboxBronze").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
@@ -48,7 +48,7 @@ public class RegistrationHandler {
 				RegistryUtil.setItemName(new Item(), "tin_gearbox", "gearboxTin").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
 				RegistryUtil.setItemName(new Item(), "tin_rod", "rodTin").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
 				
-				//Vanilla Rods/Gearboxes
+				//Vanilla Items
 				RegistryUtil.setItemName(new Item(), "wooden_gearbox", "gearboxWood").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
 				RegistryUtil.setItemName(new Item(), "stone_rod", "rodStone").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
 				RegistryUtil.setItemName(new Item(), "stone_gearbox", "gearboxStone").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
@@ -60,6 +60,12 @@ public class RegistrationHandler {
 				RegistryUtil.setItemName(new Item(), "emerald_gearbox", "gearboxEmerald").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
 				RegistryUtil.setItemName(new Item(), "diamond_rod", "rodDiamond").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
 				RegistryUtil.setItemName(new Item(), "diamond_gearbox", "gearboxDiamond").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "wooden_gear", "gearWood").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "stone_gear", "gearStone").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "iron_gear", "gearIron").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "gold_gear", "gearGold").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "emerald_gear", "gearEmerald").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
+				RegistryUtil.setItemName(new Item(), "diamond_gear", "gearDiamond").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
 				
 				//Factory Blends
 				RegistryUtil.setItemName(new Item(), "simple_factory_blend", "factoryblendSimple").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),

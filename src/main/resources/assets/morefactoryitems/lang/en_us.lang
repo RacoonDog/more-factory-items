@@ -1,57 +1,72 @@
-#Rod/Gearbox
+# -=- Modded Items -=-
+# --Thermal Foundation--
+#Gearbox
 item.morefactoryitems.gearboxAluminum.name=Aluminum Gearbox
-item.morefactoryitems.rodAluminum.name=Aluminum Rod
 item.morefactoryitems.gearboxBronze.name=Bronze Gearbox
-item.morefactoryitems.rodBronze.name=Bronze Rod
 item.morefactoryitems.gearboxConstantan.name=Constantan Gearbox
-item.morefactoryitems.rodConstantan.name=Constantan Rod
 item.morefactoryitems.gearboxCopper.name=Copper Gearbox
-item.morefactoryitems.rodCopper.name=Copper Rod
 item.morefactoryitems.gearboxElectrum.name=Electrum Gearbox
-item.morefactoryitems.rodElectrum.name=Electrum Rod
 item.morefactoryitems.gearboxEnderium.name=Enderium Gearbox
-item.morefactoryitems.rodEnderium.name=Enderium Rod
 item.morefactoryitems.gearboxInvar.name=Invar Gearbox
-item.morefactoryitems.rodInvar.name=Invar Rod
 item.morefactoryitems.gearboxIridium.name=Iridium Gearbox
-item.morefactoryitems.rodIridium.name=Iridium Rod
 item.morefactoryitems.gearboxLead.name=Lead Gearbox
-item.morefactoryitems.rodLead.name=Lead Rod
 item.morefactoryitems.gearboxLumium.name=Lumium Gearbox
-item.morefactoryitems.rodLumium.name=Lumium Rod
 item.morefactoryitems.gearboxMithril.name=Mithril Gearbox
-item.morefactoryitems.rodMithril.name=Mithril Rod
 item.morefactoryitems.gearboxNickel.name=Nickel Gearbox
-item.morefactoryitems.rodNickel.name=Nickel Rod
 item.morefactoryitems.gearboxPlatinum.name=Platinum Gearbox
-item.morefactoryitems.rodPlatinum.name=Platinum Rod
 item.morefactoryitems.gearboxSignalum.name=Signalum Gearbox
-item.morefactoryitems.rodSignalum.name=Signalum Rod
 item.morefactoryitems.gearboxSilver.name=Silver Gearbox
-item.morefactoryitems.rodSilver.name=Silver Rod
 item.morefactoryitems.gearboxSteel.name=Steel Gearbox
-item.morefactoryitems.rodSteel.name=Steel Rod
 item.morefactoryitems.gearboxTin.name=Tin Gearbox
+
+#Rod
+item.morefactoryitems.rodAluminum.name=Aluminum Rod
+item.morefactoryitems.rodBronze.name=Bronze Rod
+item.morefactoryitems.rodConstantan.name=Constantan Rod
+item.morefactoryitems.rodCopper.name=Copper Rod
+item.morefactoryitems.rodElectrum.name=Electrum Rod
+item.morefactoryitems.rodEnderium.name=Enderium Rod
+item.morefactoryitems.rodInvar.name=Invar Rod
+item.morefactoryitems.rodIridium.name=Iridium Rod
+item.morefactoryitems.rodLead.name=Lead Rod
+item.morefactoryitems.rodLumium.name=Lumium Rod
+item.morefactoryitems.rodMithril.name=Mithril Rod
+item.morefactoryitems.rodNickel.name=Nickel Rod
+item.morefactoryitems.rodPlatinum.name=Platinum Rod
+item.morefactoryitems.rodSignalum.name=Signalum Rod
+item.morefactoryitems.rodSilver.name=Silver Rod
+item.morefactoryitems.rodSteel.name=Steel Rod
 item.morefactoryitems.rodTin.name=Tin Rod
 
-#Factory Blend
+# -=- Vanilla Items -=-
+#Gearbox
+item.morefactoryitems.gearboxWood.name=Wooden Gearbox
+item.morefactoryitems.gearboxStone.name=Stone Gearbox
+item.morefactoryitems.gearboxIron.name=Iron Gearbox
+item.morefactoryitems.gearboxGold.name=Gold Gearbox
+item.morefactoryitems.gearboxEmerald.name=Emerald Gearbox
+item.morefactoryitems.gearboxDiamond.name=Diamond Gearbox
+
+#Rod
+item.morefactoryitems.rodStone.name=Stone Rod
+item.morefactoryitems.rodIron.name=Iron Rod
+item.morefactoryitems.rodGold.name=Gold Rod
+item.morefactoryitems.rodEmerald.name=Emerald Rod
+item.morefactoryitems.rodDiamond.name=Diamond Rod
+
+#Gear
+item.morefactoryitems.gearWood.name=Wooden Gear
+item.morefactoryitems.gearStone.name=Stone Gear
+item.morefactoryitems.gearIron.name=Iron Gear
+item.morefactoryitems.gearGold.name=Gold Gear
+item.morefactoryitems.gearEmerald.name=Emerald Gear
+item.morefactoryitems.gearDiamond.name=Diamond Gear
+
+# -- Factory Blend --
 item.morefactoryitems.factoryblendSimple.name=Simple Factory Blend
 item.morefactoryitems.factoryblendComplicated.name=Complicated Factory Blend
 item.morefactoryitems.factoryblendRare.name=Rare Factory Blend
 item.morefactoryitems.factoryblendResonant.name=Resonant Factory Blend
 
-#Vanilla Rod/Gearbox
-item.morefactoryitems.gearboxWood.name=Wooden Gearbox
-item.morefactoryitems.rodStone.name=Stone Rod
-item.morefactoryitems.gearboxStone.name=Stone Gearbox
-item.morefactoryitems.rodIron.name=Iron Rod
-item.morefactoryitems.gearboxIron.name=Iron Gearbox
-item.morefactoryitems.rodGold.name=Gold Rod
-item.morefactoryitems.gearboxGold.name=Gold Gearbox
-item.morefactoryitems.rodEmerald.name=Emerald Rod
-item.morefactoryitems.gearboxEmerald.name=Emerald Gearbox
-item.morefactoryitems.rodDiamond.name=Diamond Rod
-item.morefactoryitems.gearboxDiamond.name=Diamond Gearbox
-
-#Others
+# -=- Others -=-
 itemGroup.morefactoryitems=More Factory Items

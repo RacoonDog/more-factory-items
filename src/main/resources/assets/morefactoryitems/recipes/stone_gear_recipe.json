@@ -1,0 +1,23 @@
+{
+  "group": "morefactoryitems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "type": "forge:ore_dict",
+      "ore": "stone"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "gearWood"
+    }
+  },
+  "result": {
+    "item": "morefactoryitems:stone_gear",
+    "count": 1
+  }
+}

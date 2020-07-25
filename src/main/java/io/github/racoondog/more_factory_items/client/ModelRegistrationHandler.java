@@ -15,7 +15,7 @@ public class ModelRegistrationHandler {
 	
 	@SubscribeEvent
 	public static void registerModels(ModelRegistryEvent event) {
-		//Rods/Gearboxes
+		//Modded Items
 		registerModel(ModItems.aluminum_gearbox, 0);
 		registerModel(ModItems.aluminum_rod, 0);
 		registerModel(ModItems.bronze_gearbox, 0);
@@ -51,7 +51,7 @@ public class ModelRegistrationHandler {
 		registerModel(ModItems.tin_gearbox, 0);
 		registerModel(ModItems.tin_rod, 0);
 		
-		//Vanilla Rods/Gearboxes
+		//Vanilla Items
 		registerModel(ModItems.wooden_gearbox, 0);
 		registerModel(ModItems.stone_rod, 0);
 		registerModel(ModItems.stone_gearbox, 0);
@@ -63,6 +63,12 @@ public class ModelRegistrationHandler {
 		registerModel(ModItems.emerald_gearbox, 0);
 		registerModel(ModItems.diamond_rod, 0);
 		registerModel(ModItems.diamond_gearbox, 0);
+		registerModel(ModItems.wooden_gear, 0);
+		registerModel(ModItems.stone_gear, 0);
+		registerModel(ModItems.iron_gear, 0);
+		registerModel(ModItems.gold_gear, 0);
+		registerModel(ModItems.emerald_gear, 0);
+		registerModel(ModItems.diamond_gear, 0);
 		
 		//Factory Blends
 		registerModel(ModItems.simple_factory_blend, 0);
