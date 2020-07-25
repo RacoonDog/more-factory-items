@@ -38,6 +38,26 @@ item.morefactoryitems.rodSilver.name=Silver Rod
 item.morefactoryitems.rodSteel.name=Steel Rod
 item.morefactoryitems.rodTin.name=Tin Rod
 
+#Factory Blend
+item.morefactoryitems.factoryblendSimple.name=Simple Factory Blend
+item.morefactoryitems.factoryblendComplicated.name=Complicated Factory Blend
+item.morefactoryitems.factoryblendRare.name=Rare Factory Blend
+item.morefactoryitems.factoryblendResonant.name=Resonant Factory Blend
+
+# --Applied Energistics 2--
+#Gearbox
+item.morefactoryitems.gearboxCertusQuartz.name=Certus Quartz Gearbox
+item.morefactoryitems.gearboxFluix.name=Fluix Gearbox
+
+#Rod
+item.morefactoryitems.rodCertusQuartz.name=Certus Quartz Rod
+item.morefactoryitems.rodFluix.name=Fluix Rod
+
+#Gear
+item.morefactoryitems.gearCertusQuartz.name=Certus Quartz Gear
+item.morefactoryitems.gearboxWood.name=Fluix Gear
+
+
 # -=- Vanilla Items -=-
 #Gearbox
 item.morefactoryitems.gearboxWood.name=Wooden Gearbox
@@ -61,12 +81,6 @@ item.morefactoryitems.gearIron.name=Iron Gear
 item.morefactoryitems.gearGold.name=Gold Gear
 item.morefactoryitems.gearEmerald.name=Emerald Gear
 item.morefactoryitems.gearDiamond.name=Diamond Gear
-
-# -- Factory Blend --
-item.morefactoryitems.factoryblendSimple.name=Simple Factory Blend
-item.morefactoryitems.factoryblendComplicated.name=Complicated Factory Blend
-item.morefactoryitems.factoryblendRare.name=Rare Factory Blend
-item.morefactoryitems.factoryblendResonant.name=Resonant Factory Blend
 
 # -=- Others -=-
 itemGroup.morefactoryitems=More Factory Items

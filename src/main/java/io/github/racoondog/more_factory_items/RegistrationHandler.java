@@ -12,7 +12,9 @@ public class RegistrationHandler {
 	@SubscribeEvent
 	public static void registerItems(Register<Item> event) {
 		final Item[] items = {
-				//Modded Items
+				// -=- Modded Items -=-
+				// --Thermal Foundation--
+				//Gearbox
 				RegistryUtil.setItemName(new Item(), "aluminum_gearbox", "gearboxAluminum").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
 				RegistryUtil.setItemName(new Item(), "aluminum_rod", "rodAluminum").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
 				RegistryUtil.setItemName(new Item(), "bronze_gearbox", "gearboxBronze").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),

@@ -5,8 +5,9 @@ import io.github.racoondog.more_factory_items.util.RegistryUtil;
 
 public class OreDict {
 	public static void registerOreDict() {
-		//--Modded Items--
-		//Thermal Foundation
+		// -=- Modded Items -=-
+		// --Thermal Foundation--
+		//Gearbox
 		RegistryUtil.OreDict(ModItems.aluminum_gearbox, "gearboxAluminum");
 		RegistryUtil.OreDict(ModItems.bronze_gearbox, "gearboxBronze");
 		RegistryUtil.OreDict(ModItems.constantan_gearbox, "gearboxConstantan");
@@ -25,6 +26,7 @@ public class OreDict {
 		RegistryUtil.OreDict(ModItems.steel_gearbox, "gearboxSteel");
 		RegistryUtil.OreDict(ModItems.tin_gearbox, "gearboxTin");
 		
+		//Rod
 		RegistryUtil.OreDict(ModItems.aluminum_rod, "rodAluminum");
 		RegistryUtil.OreDict(ModItems.bronze_rod, "rodBronze");
 		RegistryUtil.OreDict(ModItems.constantan_rod, "rodConstantan");
@@ -43,7 +45,26 @@ public class OreDict {
 		RegistryUtil.OreDict(ModItems.steel_rod, "rodSteel");
 		RegistryUtil.OreDict(ModItems.tin_rod, "rodTin");
 		
-		//Vanilla Items
+		//Factory Blends
+		RegistryUtil.OreDict(ModItems.simple_factory_blend, "factoryblendSimple");
+		RegistryUtil.OreDict(ModItems.complicated_factory_blend, "factoryblendComplicated");
+		RegistryUtil.OreDict(ModItems.rare_factory_blend, "factoryblendRare");
+		RegistryUtil.OreDict(ModItems.resonant_factory_blend, "factoryblendResonant");
+		
+		// --Applied Energistics 2--
+		//Gearbox
+		RegistryUtil.OreDict(ModItems.certus_quartz_gearbox, "gearboxCertusQuartz");
+		RegistryUtil.OreDict(ModItems.fluix_gearbox, "gearboxFluix");
+		
+		//Rod
+		RegistryUtil.OreDict(ModItems.certus_quartz_rod, "rodCertusQuartz");
+		RegistryUtil.OreDict(ModItems.fluix_rod, "rodFluix");
+		
+		//Gear
+		RegistryUtil.OreDict(ModItems.certus_quartz_gear, "gearCertusQuartz");
+		RegistryUtil.OreDict(ModItems.fluix_gear, "gearFluix");
+		
+		// -=- Vanilla Items -=-
 		RegistryUtil.OreDict(ModItems.wooden_gearbox, "gearboxWood");
 		RegistryUtil.OreDict(ModItems.stone_gearbox, "gearboxStone");
 		RegistryUtil.OreDict(ModItems.iron_gearbox, "gearboxIron");
@@ -64,13 +85,7 @@ public class OreDict {
 		RegistryUtil.OreDict(ModItems.emerald_gear, "gearEmerald");
 		RegistryUtil.OreDict(ModItems.diamond_gear, "gearDiamond");
 		
-		//Factory Blends
-		RegistryUtil.OreDict(ModItems.simple_factory_blend, "factoryblendSimple");
-		RegistryUtil.OreDict(ModItems.complicated_factory_blend, "factoryblendComplicated");
-		RegistryUtil.OreDict(ModItems.rare_factory_blend, "factoryblendRare");
-		RegistryUtil.OreDict(ModItems.resonant_factory_blend, "factoryblendResonant");
-		
-		// -Other Entries-
+		// -=- Other Entries -=-
 		//Metal Rods
 		RegistryUtil.OreDict(ModItems.aluminum_rod, "rodMetalAny");
 		RegistryUtil.OreDict(ModItems.bronze_rod, "rodMetalAny");

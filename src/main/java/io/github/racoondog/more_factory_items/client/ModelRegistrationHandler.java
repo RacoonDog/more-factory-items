@@ -15,41 +15,64 @@ public class ModelRegistrationHandler {
 	
 	@SubscribeEvent
 	public static void registerModels(ModelRegistryEvent event) {
-		//Modded Items
+		// -=- Modded Items -=-
+		// --Thermal Foundation--
+		//Gearbox
 		registerModel(ModItems.aluminum_gearbox, 0);
-		registerModel(ModItems.aluminum_rod, 0);
 		registerModel(ModItems.bronze_gearbox, 0);
-		registerModel(ModItems.bronze_rod, 0);
 		registerModel(ModItems.constantan_gearbox, 0);
-		registerModel(ModItems.constantan_rod, 0);
 		registerModel(ModItems.copper_gearbox, 0);
-		registerModel(ModItems.copper_rod, 0);
 		registerModel(ModItems.electrum_gearbox, 0);
-		registerModel(ModItems.electrum_rod, 0);
 		registerModel(ModItems.enderium_gearbox, 0);
-		registerModel(ModItems.enderium_rod, 0);
 		registerModel(ModItems.invar_gearbox, 0);
-		registerModel(ModItems.invar_rod, 0);
 		registerModel(ModItems.iridium_gearbox, 0);
-		registerModel(ModItems.iridium_rod, 0);
 		registerModel(ModItems.lead_gearbox, 0);
-		registerModel(ModItems.lead_rod, 0);
 		registerModel(ModItems.lumium_gearbox, 0);
-		registerModel(ModItems.lumium_rod, 0);
 		registerModel(ModItems.mithril_gearbox, 0);
-		registerModel(ModItems.mithril_rod, 0);
 		registerModel(ModItems.nickel_gearbox, 0);
-		registerModel(ModItems.nickel_rod, 0);
 		registerModel(ModItems.platinum_gearbox, 0);
-		registerModel(ModItems.platinum_rod, 0);
 		registerModel(ModItems.signalum_gearbox, 0);
-		registerModel(ModItems.signalum_rod, 0);
 		registerModel(ModItems.silver_gearbox, 0);
-		registerModel(ModItems.silver_rod, 0);
 		registerModel(ModItems.steel_gearbox, 0);
-		registerModel(ModItems.steel_rod, 0);
 		registerModel(ModItems.tin_gearbox, 0);
+		
+		//Rod
+		registerModel(ModItems.aluminum_rod, 0);
+		registerModel(ModItems.bronze_rod, 0);
+		registerModel(ModItems.constantan_rod, 0);
+		registerModel(ModItems.copper_rod, 0);
+		registerModel(ModItems.electrum_rod, 0);
+		registerModel(ModItems.enderium_rod, 0);
+		registerModel(ModItems.invar_rod, 0);
+		registerModel(ModItems.iridium_rod, 0);
+		registerModel(ModItems.lead_rod, 0);
+		registerModel(ModItems.lumium_rod, 0);
+		registerModel(ModItems.mithril_rod, 0);
+		registerModel(ModItems.nickel_rod, 0);
+		registerModel(ModItems.platinum_rod, 0);
+		registerModel(ModItems.signalum_rod, 0);
+		registerModel(ModItems.silver_rod, 0);
+		registerModel(ModItems.steel_rod, 0);
 		registerModel(ModItems.tin_rod, 0);
+		
+		//Factory Blends
+		registerModel(ModItems.simple_factory_blend, 0);
+		registerModel(ModItems.complicated_factory_blend, 0);
+		registerModel(ModItems.rare_factory_blend, 0);
+		registerModel(ModItems.resonant_factory_blend, 0);
+		
+		// --Applied Energistics 2--
+		//Gearbox
+		registerModel(ModItems.certus_quartz_gearbox, 0);
+		registerModel(ModItems.fluix_gearbox, 0);
+		
+		//Rod
+		registerModel(ModItems.certus_quartz_rod, 0);
+		registerModel(ModItems.fluix_rod, 0);
+		
+		//Gear
+		registerModel(ModItems.certus_quartz_gear, 0);
+		registerModel(ModItems.fluix_gear, 0);
 		
 		//Vanilla Items
 		registerModel(ModItems.wooden_gearbox, 0);
@@ -69,12 +92,6 @@ public class ModelRegistrationHandler {
 		registerModel(ModItems.gold_gear, 0);
 		registerModel(ModItems.emerald_gear, 0);
 		registerModel(ModItems.diamond_gear, 0);
-		
-		//Factory Blends
-		registerModel(ModItems.simple_factory_blend, 0);
-		registerModel(ModItems.complicated_factory_blend, 0);
-		registerModel(ModItems.rare_factory_blend, 0);
-		registerModel(ModItems.resonant_factory_blend, 0);
 	}
 
 	private static void registerModel(Item item, int meta) {
