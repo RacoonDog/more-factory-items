@@ -2,9 +2,10 @@ package io.github.racoondog.more_factory_items.oredict;
 
 import io.github.racoondog.more_factory_items.init.ModItems;
 import io.github.racoondog.more_factory_items.util.RegistryUtil;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 public class OreDict {
-	public static void registerOreDict() {
+	public static void registerOreDict(FMLInitializationEvent event) {
 		// -=- Modded Items -=-
 		// --Thermal Foundation--
 		//Gearbox

@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import io.github.racoondog.more_factory_items.oredict.OreDict;
+import io.github.racoondog.more_factory_items.RegisteredMods;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -32,12 +33,14 @@ public class MoreFactoryItems {
 	public void init(FMLInitializationEvent event) {
 		LOGGER.info("Init Phase");
 		// --Registering Oredict Entries--
-		OreDict.registerOreDict();
+		OreDict.registerOreDict(event);
 	}
 
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
 		LOGGER.info("PostInit Phase");
+		// --Unloading Useless Items--
+		RegisteredMods.modsLoaded(event);
 	}
 
 }
