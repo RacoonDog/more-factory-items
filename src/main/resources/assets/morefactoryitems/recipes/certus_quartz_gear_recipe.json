@@ -1,0 +1,19 @@
+{
+  "group": "morefactoryitems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "1 1",
+    " 1 "
+  ],
+  "key": {
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "gemCertusQuartz"
+    }
+  },
+  "result": {
+    "item": "morefactoryitems:certus_quartz_gear",
+    "count": 1
+  }
+}
