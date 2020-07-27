@@ -178,7 +178,7 @@ public class RegisteredMods {
 	static boolean ceruclase = false;
 	static boolean deep_iron = false;
 	static boolean angmallen = false;
-	static boolean kallendrite = false;
+	static boolean kalendrite = false;
 	static boolean damascus_steel = false;
 	static boolean prometheum = false;
 	static boolean tartarite = false;
@@ -291,7 +291,11 @@ public class RegisteredMods {
 		//Extra Utilities 2
 		if (Loader.isModLoaded("extrautils2")) {
 			try {
-				//do stuff
+				demon = true;
+				enchanted = true;
+				evil_infused = true;
+				unstable = true;
+				sun_crystal = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -301,7 +305,15 @@ public class RegisteredMods {
 		//Extreme Reactors
 		if (Loader.isModLoaded("extremereactors")) {
 			try {
-				//do stuff
+				blutonium = true;
+				cyanite = true;
+				graphite = true;
+				ludicrite = true;
+				yellorium = true;
+				anglesite = true;
+				benitoite = true;
+				
+				steel = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -311,7 +323,14 @@ public class RegisteredMods {
 		//Mekanism
 		if (Loader.isModLoaded("mekanism")) {
 			try {
-				//do stuff
+				osmium = true;
+				refined_glowstone = true;
+				refined_obsidian = true;
+				
+				bronze = true;
+				copper = true;
+				steel = true;
+				tin = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -321,7 +340,14 @@ public class RegisteredMods {
 		//Mekanica
 		if (Loader.isModLoaded("mekanica")) {
 			try {
-				//do stuff
+				osmium = true;
+				refined_glowstone = true;
+				refined_obsidian = true;
+				
+				bronze = true;
+				copper = true;
+				steel = true;
+				tin = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -331,7 +357,7 @@ public class RegisteredMods {
 		//Refined Storage
 		if (Loader.isModLoaded("refinedstorage")) {
 			try {
-				//do stuff
+				enriched_iron = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -341,7 +367,7 @@ public class RegisteredMods {
 		//RFTools
 		if (Loader.isModLoaded("rftools")) {
 			try {
-				//do stuff
+				infused_diamond = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -351,7 +377,10 @@ public class RegisteredMods {
 		//Thaumcraft
 		if (Loader.isModLoaded("thaumcraft")) {
 			try {
-				//do stuff
+				amber = true;
+				brass = true;
+				thaumium = true;
+				void_material = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -361,7 +390,13 @@ public class RegisteredMods {
 		//Tinker's Construct
 		if (Loader.isModLoaded("tinkersconstruct")) {
 			try {
-				//do stuff
+				alubrass = true;
+				ardite = true;
+				cobalt = true;
+				knightslime = true;
+				manyullyn = true;
+				pigiron = true;
+				silky_jewel = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -371,7 +406,7 @@ public class RegisteredMods {
 		//Industrial Foregoing
 		if (Loader.isModLoaded("industrialforegoing")) {
 			try {
-				//do stuff
+				pink_slime = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -381,7 +416,18 @@ public class RegisteredMods {
 		//Immersive Engineering
 		if (Loader.isModLoaded("immersiveengineering")) {
 			try {
-				//do stuff
+				treated_wood = true;
+				uranium = true;
+				hop_graphite = true;
+				
+				aluminum = true;
+				constantan = true;
+				copper = true;
+				electrum = true;
+				lead = true;
+				nickel = true;
+				silver = true;
+				steel = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -391,7 +437,10 @@ public class RegisteredMods {
 		//Twilight Forest
 		if (Loader.isModLoaded("twilightforest")) {
 			try {
-				//do stuff
+				ironwood = true;
+				fiery = true;
+				steeleaf = true;
+				knightmetal = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -401,7 +450,15 @@ public class RegisteredMods {
 		//Industrial Craft 2
 		if (Loader.isModLoaded("ic2")) {
 			try {
-				//do stuff
+				advanced_alloy = true;
+				carbon_plate = true;
+				
+				bronze = true;
+				copper = true;
+				lead = true;
+				silver = true;
+				steel = true;
+				tin = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -411,7 +468,12 @@ public class RegisteredMods {
 		//Project Red
 		if (Loader.isModLoaded("projectred")) {
 			try {
-				//do stuff
+				red_alloy = true;
+				electrotine_alloy = true;
+				
+				copper = true;
+				silver = true;
+				tin = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -421,7 +483,10 @@ public class RegisteredMods {
 		//Steve's Cart
 		if (Loader.isModLoaded("stevescart")) {
 			try {
-				//do stuff
+				enhanced_galgadorian = true;
+				reinforced = true;
+				galgadorian = true;
+				
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -431,7 +496,9 @@ public class RegisteredMods {
 		//Tiny Progressions
 		if (Loader.isModLoaded("tinyprogressions")) {
 			try {
-				//do stuff
+				wub = true;
+				
+				steel = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -441,7 +508,7 @@ public class RegisteredMods {
 		//Integrated Dynamics
 		if (Loader.isModLoaded("integrateddynamics")) {
 			try {
-				//do stuff
+				crystalized_menril = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -451,7 +518,41 @@ public class RegisteredMods {
 		//Nuclear Craft
 		if (Loader.isModLoaded("nuclearcraft")) {
 			try {
-				//do stuff
+				thorium = true;
+				boron = true;
+				lithium = true;
+				magnesium = true;
+				beryllium = true;
+				zirconium = true;
+				manganese = true;
+				thorium_oxide = true;
+				uranium_oxide = true;
+				manganese_oxide = true;
+				manganese_dioxide = true;
+				tough_alloy = true;
+				hard_carbon_alloy = true;
+				magnesium_diboride_alloy = true;
+				lithium_manganese_dioxide_alloy = true;
+				ferroboron_alloy = true;
+				shibuichi_alloy = true;
+				tin_silver_alloy = true;
+				lead_platinum_alloy = true;
+				extreme_alloy = true;
+				thermoconducting_alloy = true;
+				zicaloy = true;
+				silicon_carbide = true;
+				sic_sic_ceramic_matrix_composite = true;
+				hsla_steel = true;
+				
+				aluminum = true;
+				bronze = true;
+				copper = true;
+				lead = true;
+				silver = true;
+				steel = true;
+				tin = true;
+				graphite = true;
+				uranium = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -461,7 +562,8 @@ public class RegisteredMods {
 		//ProjectE
 		if (Loader.isModLoaded("projecte")) {
 			try {
-				//do stuff
+				dark_matter = true;
+				red_matter = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -471,7 +573,7 @@ public class RegisteredMods {
 		//Random Things
 		if (Loader.isModLoaded("randomthings")) {
 			try {
-				//do stuff
+				spectre = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -481,7 +583,7 @@ public class RegisteredMods {
 		//Astral Sorcery
 		if (Loader.isModLoaded("astralsorcery")) {
 			try {
-				//do stuff
+				star_metal = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -491,7 +593,9 @@ public class RegisteredMods {
 		//Psi
 		if (Loader.isModLoaded("psi")) {
 			try {
-				//do stuff
+				psimetal = true;
+				ebony_psimetal = true;
+				ivory_psimetal = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -501,7 +605,13 @@ public class RegisteredMods {
 		//Mystical Agriculture
 		if (Loader.isModLoaded("mysticalagriculture")) {
 			try {
-				//do stuff
+				base_essence = true;
+				inferium = true;
+				prudentium = true;
+				intermedium = true;
+				superium = true;
+				supremium = true;
+				soulium = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -511,7 +621,31 @@ public class RegisteredMods {
 		//Base Metals
 		if (Loader.isModLoaded("basemetals")) {
 			try {
-				//do stuff
+				adamantine = true;
+				antimony = true;
+				aquarium = true;
+				bismuth = true;
+				cold_iron = true;
+				cupronickel = true;
+				obsidian_ingot = true;
+				pewter = true;
+				liquid_mercury = true;
+				zinc = true;
+				star_steel = true;
+				redstone_ingot = true;
+				
+				bronze = true;
+				copper = true;
+				electrum = true;
+				invar = true;
+				lead = true;
+				mithril = true;
+				nickel = true;
+				platinum = true;
+				silver = true;
+				steel = true;
+				tin = true;
+				brass = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -521,7 +655,27 @@ public class RegisteredMods {
 		//Modern Metals
 		if (Loader.isModLoaded("modernmetals")) {
 			try {
-				//do stuff
+				chromium = true;
+				cadmium = true;
+				galvanized_steel = true;
+				tantalum = true;
+				stainless_steel = true;
+				rutile = true;
+				nichrome = true;
+				tungsten = true;
+				
+				aluminum = true;
+				iridium = true;
+				osmium = true;
+				alubrass = true;
+				uranium = true;
+				thorium = true;
+				boron = true;
+				magnesium = true;
+				beryllium = true;
+				zirconium = true;
+				manganese = true;
+				titanium = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -531,7 +685,8 @@ public class RegisteredMods {
 		//Biomes O' Plenty
 		if (Loader.isModLoaded("biomesoplenty")) {
 			try {
-				//do stuff
+				celestial_crystal = true;
+				terrestrial_artifact = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -541,7 +696,55 @@ public class RegisteredMods {
 		//Metallurgy
 		if (Loader.isModLoaded("metallurgy")) {
 			try {
-				//do stuff
+				amordrine = true;
+				haderoth = true;
+				alduorite = true;
+				vulcanite = true;
+				ignatius = true;
+				etherium = true;
+				quicksilver = true;
+				astral_silver = true;
+				hepatizon = true;
+				lemurite = true;
+				sanguinite = true;
+				eximite = true;
+				desichalkos = true;
+				celenegil = true;
+				shadow_iron = true;
+				carmot = true;
+				ceruclase = true;
+				deep_iron = true;
+				angmallen = true;
+				kalendrite = true;
+				damascus_steel = true;
+				prometheum = true;
+				tartarite = true;
+				atlarus = true;
+				vyroxeres = true;
+				black_steel = true;
+				lutetium = true;
+				oureclase = true;
+				inolashite = true;
+				meutoite = true;
+				orichalum = true;
+				rubracium = true;
+				krik = true;
+				midasium = true;
+				shadow_steel = true;
+				
+				bronze = true;
+				copper = true;
+				electrum = true;
+				mithril = true;
+				platinum = true;
+				silver = true;
+				steel = true;
+				tin = true;
+				osmium = true;
+				brass = true;
+				manganese = true;
+				adamantine = true;
+				zinc = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -551,7 +754,29 @@ public class RegisteredMods {
 		//Tech Reborn
 		if (Loader.isModLoaded("techreborn")) {
 			try {
-				//do stuff
+				chrome = true;
+				tungstensteel = true;
+				refined_iron = true;
+				
+				aluminum = true;
+				bronze = true;
+				copper = true;
+				electrum = true;
+				invar = true;
+				iridium = true;
+				lead = true;
+				nickel = true;
+				platinum = true;
+				silver = true;
+				steel = true;
+				tin = true;
+				brass = true;
+				uranium = true;
+				advanced_alloy = true;
+				thorium = true;
+				titanium = true;
+				zinc = true;
+				tungsten = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -561,7 +786,9 @@ public class RegisteredMods {
 		//Forestry
 		if (Loader.isModLoaded("forestry")) {
 			try {
-				//do stuff
+				bronze = true;
+				copper = true;
+				tin = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -571,7 +798,8 @@ public class RegisteredMods {
 		//Mystical World
 		if (Loader.isModLoaded("mysticalworld")) {
 			try {
-				//do stuff
+				copper = true;
+				silver = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
@@ -581,7 +809,16 @@ public class RegisteredMods {
 		//Railcraft
 		if (Loader.isModLoaded("railcraft")) {
 			try {
-				//do stuff
+				bronze = true;
+				copper = true;
+				invar = true;
+				lead = true;
+				nickel = true;
+				silver = true;
+				steel = true;
+				tin = true;
+				brass = true;
+				zinc = true;
 			}
 			catch (Exception error) {
 				error.printStackTrace(System.err);
