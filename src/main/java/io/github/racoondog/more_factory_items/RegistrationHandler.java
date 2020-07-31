@@ -95,132 +95,83 @@ public class RegistrationHandler {
 				RegistryUtil.setItemName(new Item(), "emerald_gear", "gearEmerald").setCreativeTab(MoreFactoryItems.CREATIVE_TAB),
 				RegistryUtil.setItemName(new Item(), "diamond_gear", "gearDiamond").setCreativeTab(MoreFactoryItems.CREATIVE_TAB)
 		};
-		if (!ConfigHandler.loadAllItems) {
-			if (RegisteredMods.aluminum) {
-				ModItems.aluminum_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.aluminum_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.bronze) {
-				ModItems.bronze_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.bronze_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.constantan) {
-				ModItems.constantan_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.constantan_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.copper) {
-				ModItems.copper_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.copper_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.electrum) {
-				ModItems.electrum_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.electrum_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.enderium) {
-				ModItems.enderium_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.enderium_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.invar) {
-				ModItems.invar_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.invar_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.iridium) {
-				ModItems.iridium_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.iridium_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.lead) {
-				ModItems.lead_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.lead_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.lumium) {
-				ModItems.lumium_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.lumium_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.mithril) {
-				ModItems.mithril_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.mithril_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.nickel) {
-				ModItems.nickel_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.nickel_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.platinum) {
-				ModItems.platinum_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.platinum_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.signalum) {
-				ModItems.signalum_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.signalum_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.silver) {
-				ModItems.silver_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.silver_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.steel) {
-				ModItems.steel_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.steel_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.tin) {
-				ModItems.tin_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.tin_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.certus_quartz) {
-				ModItems.certus_quartz_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.certus_quartz_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.certus_quartz_gear.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-			if (RegisteredMods.fluix) {
-				ModItems.fluix_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.fluix_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-				ModItems.fluix_gear.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			}
-		} else {
+		if (RegisteredMods.aluminum) {
 			ModItems.aluminum_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.aluminum_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.bronze) {
 			ModItems.bronze_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.bronze_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.constantan) {
 			ModItems.constantan_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.constantan_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.copper) {
 			ModItems.copper_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.copper_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.electrum) {
 			ModItems.electrum_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.electrum_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.enderium) {
 			ModItems.enderium_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.enderium_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.invar) {
 			ModItems.invar_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.invar_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.iridium) {
 			ModItems.iridium_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.iridium_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.lead) {
 			ModItems.lead_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.lead_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.lumium) {
 			ModItems.lumium_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.lumium_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.mithril) {
 			ModItems.mithril_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.mithril_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.nickel) {
 			ModItems.nickel_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.nickel_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.platinum) {
 			ModItems.platinum_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.platinum_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.signalum) {
 			ModItems.signalum_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.signalum_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.silver) {
 			ModItems.silver_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.silver_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.steel) {
 			ModItems.steel_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.steel_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.tin) {
 			ModItems.tin_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.tin_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.certus_quartz) {
 			ModItems.certus_quartz_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.certus_quartz_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.certus_quartz_gear.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
+		}
+		if (RegisteredMods.fluix) {
 			ModItems.fluix_gearbox.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.fluix_rod.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 			ModItems.fluix_gear.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-		}
-		if (!ConfigHandler.removeFactoryBlends) {
-			ModItems.simple_factory_blend.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			ModItems.complicated_factory_blend.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			ModItems.rare_factory_blend.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
-			ModItems.resonant_factory_blend.setCreativeTab(MoreFactoryItems.CREATIVE_TAB);
 		}
 		event.getRegistry().registerAll(items);
 	}
